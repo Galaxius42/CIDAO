@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.section-carbon {
+    @apply py-20 bg-no-repeat bg-cover bg-center;
+
+    background-image: url('/assets/carbon-fiber.png');
+}
+
+.section-bois {
+    @apply py-20 bg-no-repeat bg-cover bg-center;
+
+    background-image: url('/assets/planchebois.png');
+}
+
+.section-blanc {
+    @apply py-20 bg-no-repeat bg-cover bg-center;
+
+    background-image: url('/assets/fondLight.jpg');
+}
