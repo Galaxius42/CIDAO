@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b gh-pages --repo=https://github.com/Galaxius42/CIDAO.git --dotfiles"
+
   },
   "dependencies": {
     "framer-motion": "^12.10.0",
